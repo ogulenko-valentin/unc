@@ -1,0 +1,95 @@
+.trip-sights div.form-group {
+  display: inline-block;
+}
+
+.trip-sights select.form-control {
+  width: 196.5px;
+}
+
+.list-of-sights li {
+  display: inline-block;
+}
+
+.list-of-sights i.fa-2x {
+  font-size: 1em;
+  margin: 1px;
+}
+.list-of-sights button {
+  width: 35px;
+  height: 25px;
+  padding: 1px;
+  margin-left: 320px;
+}
+
+.list-of-sights {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.list-of-sights::-webkit-scrollbar{
+  width: 2px;
+}
+
+.list-of-sights::-webkit-scrollbar-thumb {
+  border: none;
+  background-color: transparent;
+  max-height: 5px;
+}
+
+.list-of-sights:hover::-webkit-scrollbar-thumb{
+  border: none;
+  background-color: blue;
+  max-height: 20px;
+}
+
+.list-of-sights::-webkit-scrollbar-track{
+  border: none;
+  background-color: transparent;
+}
+
+
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#target {
+  width: 345px;
+}

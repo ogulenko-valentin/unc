@@ -1,0 +1,19 @@
+.form-group {
+    display: inline-block;
+}
+
+.form-group.to,
+.form-group.hotel-address {
+    float: right;
+}
+
+input.form-control {
+    width: 250px;
+}
+small{
+    position: absolute;
+    color: red;
+}
+input.ng-touched.ng-invalid {border:solid red 1.5px;}
+
+

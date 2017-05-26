@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="flex">
+      <div class="flex-itm" *ngFor="let trip of homeTrips">
+        <div class="panel trip-panel">
+          <div class="trip-pic">
+            <div class="trippic-wrapper">
+              <img class="img-responsive" src="{{trip?.photo}}" alt="">
+            </div>
+          </div>
+          <h3><a routerLink="/trip-info/{{trip?.id}}">{{trip?.name}}</a></h3>
+          <h4>{{trip?.startDate | date :'dd.MM.yyyy' }} - {{trip?.endDate| date :'dd.MM.yyyy' }}</h4>
+          <p>{{trip?.info}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
